@@ -1,0 +1,17 @@
+{
+    "states": ["A","B"],
+    "alphabet": ["1","0"],
+    "delta": {
+        "A": {
+            "1": ["B"],
+            "0": ["A"]
+        },
+        "B": {
+            "1": ["A"],
+            "0": ["B"]
+        }
+    },
+    "start_states": ["A"],
+    "final_states": ["B"],
+    "description": "Returns true if the input contains an odd number of 1s"
+}
